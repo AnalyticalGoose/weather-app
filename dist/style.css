@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+/* * {
+    border: 2px solid red;
+} */
+
+
+body, h1, h2 {
+    margin: 0;
+}
+
+.content {
+    font-family: Rubik;
+
+    height: 90vh;
+    padding-left: 50px;
+
+    display: flex;
+    align-items: center;
+}
+
+header {
+    height: 10vh;
+
+    background-color: rgba(0, 0, 255, 0.315);
+}
+
+.card-container {
+    height: 500px;
+    width: 350px;
+    border-radius: 25px;
+    padding-top: 10px;
+    gap: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temp-icon-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.forecast-wrapper {
+    display: flex;
+    overflow: auto;
+    gap: 25px;
+    width: 300px;
+}
+
+.hourly-wrapper {
+    height: 90px;
+    width: 50px;
+
+    text-align: center;
+}
+
+.hourly-img {
+    height: 30px;
+}
